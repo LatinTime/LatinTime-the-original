@@ -17,7 +17,7 @@
 			<td><a href="gaius.html">GAIUS</a></td>
 		</tr>
 	</table>
-<p>please go to the </p><a href="hello.html">main page</a>
+<p>please go to the <a href="hello.html">main page</a></p>
 
 <br>
 
