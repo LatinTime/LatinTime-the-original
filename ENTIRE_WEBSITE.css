@@ -1,0 +1,22 @@
+#PageGuide{
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+/* BEGIN DROPDOWN STYLING */
+
+/* Positions dropdown content */
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+ /* Hides content by default, later will define min. width and style */
+.dropdown-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+/* Shows dropdown content on hover */
+.dropdown:hover .dropbtn{
+  display:block;
+}
