@@ -5,22 +5,28 @@
 
 /* BEGIN DROPDOWN STYLING */
 
+/* Style dropdown button */
+.dropbtn{
+  cursor:pointer;
+}
 /* Positions dropdown content */
 .dropdown{
   position: relative;
   display: inline-block;
 }
- /* Hides content by default, later will define min. width and style */
+ /* Hides content box by default; styles box */
 .dropdown-content{
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
   z-index: 1;
 }
+/* Styles content links */
+.dropdown-content a{
+  display: block;
+}
 /* Shows dropdown content on hover */
-.dropdown:hover .dropbtn{
+.dropdown:hover .dropdown-content{
   display:block;
 }
