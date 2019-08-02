@@ -2,6 +2,14 @@
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+#Home .p, .h3{
+  font-family: Comic sans-serif monospace;
+  font-size: 20px;
+}
+#Salvete{
+  font-family: Comic sans-serif monospace;
+  font-size: 36px;
+}
 
 /* BEGIN DROPDOWN STYLING */
 
