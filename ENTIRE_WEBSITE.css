@@ -13,70 +13,35 @@
 
 /* BEGIN NAVIGATION BAR STYLING */
 
-/* Styles navigation bar */
-.navbar{
-  overflow: hidden;
-  background-color: #0097fc;
-  font-family: Helvetica;
-}
-/* Styles links in navbar */
-.navbar a{
-  float: left;
-  font-size: 16px;
-  color:black;
-  text-align: center;
-  padding:14px 16px;
-  text-decoration: none;
-}
-
-/* Dropdown box */
-.dropdown{
-  float: left;
-  overflow: hidden;
-}
-
-/* Stles dropdown buttons */
-.dropdown .dropbtn{
-  font-size: 16px;
-  border: none;
-  outline: none;
-  padding: 14px 16px;
-  background-color: #0097fc;
-  font-family: Helvetica;
+/*Deletes automatic styling*/
+ul{
+  list-style: none;
   margin: 0;
-}
-
-/*Changes color of Navbar Links when hovered on */
-.navbar a:hover, .dropdown:hover .dropbtn{
-  background-color: #0065fc
-}
-
-/* Styles dropdown content */
-.dropdown-content{
-  display: none;
-  position: absolute;
+  padding: 0;
+  overflow: hidden;
   background-color: #0097fc;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px(0,0,0,0.2);
-  z-index: 1;
 }
 
-/* Links in dropdown box */
-.dropdown-content a{
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display:block;
-  text-align: left;
+/*Aligns contents of list to the left*/
+li{
+  float: left
 }
 
-/* Makes dropdown links change color on hover */
-.dropdown-content a:hover{
+/*Text color and padding*/
+li a{
+  display: block;
+  text-align: center;
+  color: black
+  padding: 16px
+}
+
+/*Changes color of list buttons on hover*/
+li a:hover, .dropdown:hover{
   background-color: #0065fc
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+/*Dropdown box*/
+.dropdown{
+  float:left;
+  overflow: hidden;
 }
