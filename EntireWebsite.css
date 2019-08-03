@@ -22,9 +22,14 @@ ul{
   background-color: #0097fc;
 }
 
-/*Aligns contents of list to the left*/
+/*Makes Navbar be Horizontal*/
 li{
   float: left
+}
+
+/*Makes dropdown content be vertical*/
+.dropdown-content{
+  float:none;
 }
 
 /*Text color and padding*/
@@ -36,12 +41,18 @@ li a{
 }
 
 /*Changes color of list buttons on hover*/
-li a:hover, .dropdown:hover{
+li a:hover, .dropdown-content:hover, .dropdown:hover{
   background-color: #0065fc;
 }
 
 /*Dropdown box*/
-.dropdown{
+.dropdown-content{
   float:left;
   overflow: hidden;
+  display:none
+}
+
+/*Shows dropdown box on hover*/
+.dropdown:hover .dropdown-content{
+  display:block;
 }
