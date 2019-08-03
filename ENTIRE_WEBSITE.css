@@ -1,13 +1,13 @@
 #PageGuide{
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #Home .p, .h3{
-  font-family: Comic sans-serif monospace;
+  font-family: "Comic sans-serif monospace";
   font-size: 20px;
 }
 #Salvete{
-  font-family: Comic sans-serif monospace;
+  font-family: "Comic sans-serif monospace";
   font-size: 36px;
 }
 
@@ -31,13 +31,13 @@ li{
 li a{
   display: block;
   text-align: center;
-  color: black
-  padding: 16px
+  color: black;
+  padding: 16px;
 }
 
 /*Changes color of list buttons on hover*/
 li a:hover, .dropdown:hover{
-  background-color: #0065fc
+  background-color: #0065fc;
 }
 
 /*Dropdown box*/
