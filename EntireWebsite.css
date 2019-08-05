@@ -37,7 +37,7 @@ li a{
 }
 
 /*Changes color of list buttons on hover*/
-li a:hover, .dropdown-content:hover, .dropdown:hover{
+li a:hover, .drop1:hover, .drop2:hover{
   background-color: #0065fc;
 }
 
@@ -63,7 +63,7 @@ li a:hover, .dropdown-content:hover, .dropdown:hover{
   margin: 0;
 }
 
-.navbar a:hover, .drop1:hover .drop2:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #0065FC;
 }
 
