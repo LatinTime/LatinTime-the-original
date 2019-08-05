@@ -27,10 +27,6 @@ li{
   float: left
 }
 
-/*Makes dropdown content be vertical*/
-.dropdown-content{
-  float:none;
-}
 
 /*Text color and padding*/
 li a{
@@ -45,12 +41,6 @@ li a:hover, .dropdown-content:hover, .dropdown:hover{
   background-color: #0065fc;
 }
 
-/*Dropdown box*/
-.dropdown-content{
-  float:left;
-  overflow: hidden;
-  display:none
-}
 
 /*Shows dropdown box on hover*/
 .dropdown:hover .dropdown-content{
@@ -84,14 +74,21 @@ li a:hover, .dropdown-content:hover, .dropdown:hover{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  float: none;
+  overflow: hidden;
+
 }
 
 .dropdown-content a {
   float: none;
-  color: #0097FC;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
+  background-color
 }
 
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
