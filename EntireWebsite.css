@@ -79,7 +79,7 @@ li a:hover, .dropdown-content a:hover{
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover {
   background-color: #0065FC;
 }
 
@@ -103,4 +103,7 @@ li a:hover, .dropdown-content a:hover{
   display: block;
   text-align: left;
   background-color
+}
+  .dropdown:hover .dropbtn {
+  background-color: #d6d6d6;
 }
