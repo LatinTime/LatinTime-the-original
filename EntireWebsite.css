@@ -37,10 +37,13 @@ li a{
 }
 
 /*Changes color of navbar buttons on hover*/
-li a:hover, .dropdown-content a:hover{
+li a:hover,{
   background-color: #0065fc;
 }
 
+.dropdown-content a:hover{
+  background-color: #d6d6d6
+}
 
 /*Shows dropdown box on hover*/
 .dropdown:hover .dropdown-content{
