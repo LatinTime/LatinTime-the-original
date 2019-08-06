@@ -39,7 +39,11 @@ li a{
 /*Changes color of navbar buttons on hover*/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 li a:hover, .dropdown:hover{
+=======
+li a:hover, .dropdown-content a:hover{
+>>>>>>> parent of 4c8b9c4... Update EntireWebsite.css
 =======
 li a:hover, .dropdown-content a:hover{
 >>>>>>> parent of 4c8b9c4... Update EntireWebsite.css
