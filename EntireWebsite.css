@@ -95,3 +95,30 @@ li a:hover, .dropdown:hover{
 .dropdown-content a:hover {
   background-color: #d6d6d6;
 }
+
+/* @font-face time, specifically adding the certain font for the chart pages */
+
+@font-face {
+    font-family: 'Eras Demi ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras Demi ITC'), url('ERASDEMI.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eras Bold ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras Bold ITC'), url('ERASBD.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eras Medium ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras Medium ITC'), url('ERASMD.woff') format('woff');
+}
+@font-face {
+    font-family: 'Eras Ultra ITC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Eras Ultra ITC'), url('eras-ultra-itc-5871819ba5ce2.woff') format('woff');
+}
