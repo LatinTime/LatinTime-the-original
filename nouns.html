@@ -9,44 +9,32 @@
 .heading1 {
 font-family: "Comic Sans MS";
 }
-
-@font-face {
-    font-family: 'Eras Demi ITC';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Eras Demi ITC'), url('ERASDEMI.woff') format('woff');
-}
 		
 table { 
 border: 3px solid rgba(0, 0, 0, 1);
 font-size: large;
-font-family: "Eras Demi ITC";
 }
-
-
 .grid-container {
   display: grid;
-  grid: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-  padding: 20px;
-  grid-row-gap: 20px;
+  padding: 0px;
+  grid-row-gap: 0px;
 }
-
 .grid-container > div {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
-
-.1 { grid-area: 1 / 1 / span 2 / span 2; }
-.2 { grid-area: 1 / 3 / span 2 / span 2; }
-.2n { grid-area: 1 / 5 / span 2 / span 2; }
-.3 { grid-area: 1 / 7 / span 2 / span 2; }
-.3n { grid-area: 3 / 1 / span 2 / span 2; }
-.4 { grid-area: 3 / 3 / span 2 / span 2; }
-.4n { grid-area: 3 / 4 / span 2 / span 2; 
-}
-.5 { grid-area: 3 / 7 / span 2 / span 2; }
+.a { grid-area: 1 / 1 / 2 / 1; }
+.b { grid-area: 1 / 2 / 2 / 2; }
+.c { grid-area: 1 / 3 / 2 / 3; }
+.d { grid-area: 1 / 4 / 2 / 4; }
+.e { grid-area: 2 / 1 / 4 / 1; }
+.f { grid-area: 2 / 2 / 4 / 2; }
+.g { grid-area: 2 / 3 / 4 / 3; }
+.h { grid-area: 2 / 4 / 4 / 4; }
 </style>
 	</head>
 
@@ -88,7 +76,7 @@ font-family: "Eras Demi ITC";
 <h1 class="heading1"><center>Declensions</center></h1>
 
 <div class="grid-container">
-  <div class="1">
+  <div class="a">
 <table style="background-color: red;">
 <tbody>
 <tr>
@@ -119,7 +107,7 @@ font-family: "Eras Demi ITC";
 
   </div>
   
-  <div class="2">
+  <div class="b">
   <table style="background-color: #ff6927">
 <tbody>
 <tr>
@@ -149,7 +137,7 @@ font-family: "Eras Demi ITC";
 </table>
   </div>
   
-  <div class="2n">
+  <div class="c">
   <table style="background-color: #e5da16">
 <tbody>
 <tr>
@@ -180,7 +168,7 @@ font-family: "Eras Demi ITC";
 
   </div>  
   
-  <div class="3">
+  <div class="d">
   <table style="background-color: #2cd02c">
 <tbody>
 <tr>
@@ -212,7 +200,7 @@ font-family: "Eras Demi ITC";
 
   </div>
   
-  <div class="3n">
+  <div class="e">
   <table style="background-color: #00a651">
 <tbody>
 <tr>
@@ -242,7 +230,7 @@ font-family: "Eras Demi ITC";
 </table>
   </div>
   
-  <div class="4">
+  <div class="f">
   <table style="background-color: #00aeef">
 <tbody>
 <tr>
@@ -272,7 +260,7 @@ font-family: "Eras Demi ITC";
 </table>
   </div>
   
-  <div class="4n">
+  <div class="g">
   <table style="background-color: #2195c1">
 <tbody>
 <tr>
@@ -303,7 +291,7 @@ font-family: "Eras Demi ITC";
 
   </div>
   
-  <div class="5">
+  <div class="h">
   <table style="background-color: #9c54d3">
 <tbody>
 <tr>
